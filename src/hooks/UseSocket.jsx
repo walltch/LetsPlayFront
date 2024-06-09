@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 
 const useSocket = () => {
-  const url = 'http://localhost:4000';
+  const url = 'https://letsplayback.onrender.com';
   const [socket, setSocket] = useState(null);
   const [isConnected, setIsConnected] = useState(false);
 
